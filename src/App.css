@@ -44,6 +44,33 @@ input {
   margin-bottom: 20px;
 }
 
+.App {
+  text-align: center;
+}
+
+input {
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.box-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: capitalize;
+  font-size: 14px;
+}
 
 
 
